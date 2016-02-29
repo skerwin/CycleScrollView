@@ -30,6 +30,11 @@
 		E7E7BA081C8295CA00719230 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7B9F61C8295CA00719230 /* UIImageView+HighlightedWebCache.m */; };
 		E7E7BA091C8295CA00719230 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7B9F81C8295CA00719230 /* UIImageView+WebCache.m */; };
 		E7E7BA0A1C8295CA00719230 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E7B9FA1C8295CA00719230 /* UIView+WebCacheOperation.m */; };
+		E7E7BA191C82B5A900719230 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7E7BA151C82B5A900719230 /* 0.jpg */; };
+		E7E7BA1A1C82B5A900719230 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7E7BA161C82B5A900719230 /* 1.jpg */; };
+		E7E7BA1B1C82B5A900719230 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7E7BA171C82B5A900719230 /* 2.jpg */; };
+		E7E7BA1C1C82B5A900719230 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7E7BA181C82B5A900719230 /* 3.jpg */; };
+		E7E7BA1E1C82CD0800719230 /* CircleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7BA1D1C82CD0800719230 /* CircleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +101,12 @@
 		E7E7B9F81C8295CA00719230 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		E7E7B9F91C8295CA00719230 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		E7E7B9FA1C8295CA00719230 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		E7E7BA0B1C8297C400719230 /* App-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Brigding-Header.h"; sourceTree = "<group>"; };
+		E7E7BA151C82B5A900719230 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		E7E7BA161C82B5A900719230 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		E7E7BA171C82B5A900719230 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		E7E7BA181C82B5A900719230 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		E7E7BA1D1C82CD0800719230 /* CircleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +163,10 @@
 				E7E7B9391C8031AA00719230 /* Assets.xcassets */,
 				E7E7B93B1C8031AA00719230 /* LaunchScreen.storyboard */,
 				E7E7B93E1C8031AA00719230 /* Info.plist */,
+				E7E7BA141C82B5A900719230 /* image */,
 				E7E7B9D91C8295CA00719230 /* SDWebImage */,
+				E7E7BA0B1C8297C400719230 /* App-Brigding-Header.h */,
+				E7E7BA1D1C82CD0800719230 /* CircleScrollView.swift */,
 			);
 			path = CycleScrollView;
 			sourceTree = "<group>";
@@ -213,6 +227,17 @@
 				E7E7B9FA1C8295CA00719230 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		E7E7BA141C82B5A900719230 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7BA151C82B5A900719230 /* 0.jpg */,
+				E7E7BA161C82B5A900719230 /* 1.jpg */,
+				E7E7BA171C82B5A900719230 /* 2.jpg */,
+				E7E7BA181C82B5A900719230 /* 3.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,9 +344,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E7BA1B1C82B5A900719230 /* 2.jpg in Resources */,
+				E7E7BA191C82B5A900719230 /* 0.jpg in Resources */,
 				E7E7B93D1C8031AA00719230 /* LaunchScreen.storyboard in Resources */,
 				E7E7B93A1C8031AA00719230 /* Assets.xcassets in Resources */,
 				E7E7B9381C8031AA00719230 /* Main.storyboard in Resources */,
+				E7E7BA1C1C82B5A900719230 /* 3.jpg in Resources */,
+				E7E7BA1A1C82B5A900719230 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +387,7 @@
 				E7E7BA071C8295CA00719230 /* UIImage+WebP.m in Sources */,
 				E7E7B9FC1C8295CA00719230 /* NSData+ImageContentType.m in Sources */,
 				E7E7BA011C8295CA00719230 /* SDWebImageDownloaderOperation.m in Sources */,
+				E7E7BA1E1C82CD0800719230 /* CircleScrollView.swift in Sources */,
 				E7E7BA021C8295CA00719230 /* SDWebImageManager.m in Sources */,
 				E7E7BA061C8295CA00719230 /* UIImage+MultiFormat.m in Sources */,
 				E7E7BA031C8295CA00719230 /* SDWebImagePrefetcher.m in Sources */,
@@ -509,6 +539,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZYJ.CycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CycleScrollView/App-Brigding-Header.h";
 			};
 			name = Debug;
 		};
@@ -520,6 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZYJ.CycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CycleScrollView/App-Brigding-Header.h";
 			};
 			name = Release;
 		};
